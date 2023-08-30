@@ -2,7 +2,7 @@
 import React, { useEffect } from "react";
 import Typed from "typed.js";
 import { motion } from "framer-motion";
-import ImImage from "./ImImage";
+import BigMemojiLogo from "@/components/BigMemojiLogo";
 
 const WelcomeSection = () => {
   useEffect(() => {
@@ -23,8 +23,8 @@ const WelcomeSection = () => {
   }, []);
 
   return (
-    <div className="flex">
-      <section className="w-1/2 flex flex-col items-center">
+    <div className="flex p-6">
+      <section className="w-1/2 flex flex-col justify-center">
         <motion.h1
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
@@ -48,7 +48,7 @@ const WelcomeSection = () => {
       </section>
 
       <section className=" w-1/2 flex justify-center items-center">
-        <ImImage />
+        <BigMemojiLogo />
       </section>
     </div>
   );
