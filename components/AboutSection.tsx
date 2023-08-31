@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 const AboutSection = () => {
   return (
-    <div className="bg-neutral-50 rounded-xl flex flex-col text-center p-6">
+    <div className="flex flex-col text-center p-6">
       <motion.h1
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
@@ -17,7 +17,7 @@ const AboutSection = () => {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 1, duration: 1 }}
-        className="text-lg font-medium mx-24 p-4"
+        className="text-lg font-medium p-4 xl:mx-24 2xl:mx-56"
       >
         I am a developer with a strong focus on quality and performance. I am
         constantly learning new technology and I am always willing to go above
