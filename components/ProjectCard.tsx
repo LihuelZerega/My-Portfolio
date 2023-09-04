@@ -1,25 +1,21 @@
 'use client'
 import Image from "next/image";
-import Link from "next/link";
 import React from "react";
 
 interface ProjectCardProps {
   title: string;
   description: string;
   imageUrl: string;
-  projectUrl: string;
 }
 
 const ProjectCard: React.FC<ProjectCardProps> = ({
   title,
   description,
   imageUrl,
-  projectUrl,
 }) => {
   const [isHovered, setIsHovered] = React.useState(false);
 
   return (
-    <Link href={projectUrl}>
       <div
         className="relative overflow-hidden rounded-lg shadow-lg transition-transform transform hover:scale-105"
         onMouseEnter={() => setIsHovered(true)}
@@ -40,7 +36,6 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
           </div>
         )}
       </div>
-    </Link>
   );
 };
 

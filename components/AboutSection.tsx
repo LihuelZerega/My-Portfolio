@@ -17,7 +17,7 @@ const AboutSection = () => {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 1, duration: 1 }}
-        className="text-lg font-medium p-4 xl:mx-24 2xl:mx-56"
+        className="text-lg p-4 xl:mx-24 2xl:mx-56"
       >
         I am a developer with a strong focus on quality and performance. I am
         constantly learning new technology and I am always willing to go above

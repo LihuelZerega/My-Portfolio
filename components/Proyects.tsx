@@ -1,6 +1,7 @@
 "use client";
 import React from "react";
 import ProjectCard from "@/components/ProjectCard";
+import ProyectCardModalFoods from "./ProjectModals/ProyectCardModalFoods";
 
 const Projects: React.FC = () => {
   return (
@@ -11,23 +12,22 @@ const Projects: React.FC = () => {
 
       <div className="space-y-12">
         <section className="flex flex-row items-center justify-center gap-6">
+          <div onClick={ProyectCardModalFoods}>
+            <ProjectCard
+              title="Foods"
+              description="Soy Henry | PI"
+              imageUrl="https://res.cloudinary.com/dszjgdktf/image/upload/v1693579071/FoodsPreviewPortfolio_aebgst.png"
+            />
+          </div>
           <ProjectCard
             title="Pig Commander"
-            description="Descripción del Proyecto 1."
-            imageUrl="https://res.cloudinary.com/dszjgdktf/image/upload/v1693350736/Grupo_1_ude2qu.png"
-            projectUrl="http://proyecto-1"
+            description="Soy Henry | PF"
+            imageUrl="https://res.cloudinary.com/dszjgdktf/image/upload/v1693579071/PigCommanderPreviewPortfolio_fg86yv.png"
           />
           <ProjectCard
             title="Coming soon..."
             description="Coming soon..."
-            imageUrl="https://res.cloudinary.com/dszjgdktf/image/upload/v1693350736/Grupo_1_ude2qu.png"
-            projectUrl="http://proyecto-2"
-          />
-          <ProjectCard
-            title="Coming soon..."
-            description="Coming soon..."
-            imageUrl="https://res.cloudinary.com/dszjgdktf/image/upload/v1693350736/Grupo_1_ude2qu.png"
-            projectUrl="http://proyecto-3"
+            imageUrl="https://res.cloudinary.com/dszjgdktf/image/upload/v1693346764/samples/animals/kitten-playing.gif"
           />
         </section>
 
@@ -35,20 +35,17 @@ const Projects: React.FC = () => {
           <ProjectCard
             title="Coming soon..."
             description="Coming soon..."
-            imageUrl="https://res.cloudinary.com/dszjgdktf/image/upload/v1693350736/Grupo_1_ude2qu.png"
-            projectUrl="http://proyecto-1"
+            imageUrl="https://res.cloudinary.com/dszjgdktf/image/upload/v1693346764/samples/animals/kitten-playing.gif"
           />
           <ProjectCard
             title="Coming soon..."
             description="Coming soon..."
-            imageUrl="https://res.cloudinary.com/dszjgdktf/image/upload/v1693350736/Grupo_1_ude2qu.png"
-            projectUrl="http://proyecto-2"
+            imageUrl="https://res.cloudinary.com/dszjgdktf/image/upload/v1693346764/samples/animals/kitten-playing.gif"
           />
           <ProjectCard
             title="Coming soon..."
             description="Coming soon..."
-            imageUrl="https://res.cloudinary.com/dszjgdktf/image/upload/v1693350736/Grupo_1_ude2qu.png"
-            projectUrl="http://proyecto-3"
+            imageUrl="https://res.cloudinary.com/dszjgdktf/image/upload/v1693346764/samples/animals/kitten-playing.gif"
           />
         </section>
       </div>
