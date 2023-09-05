@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <div>
       <hr />
-      <div className="flex flex-row items-center justify-around py-6">
+      <div className="flex flex-col-reverse sm:flex-row items-center justify-around py-6">
         <h3>@2023. All Rights Reserved</h3>
         <h3>Designed by Lihuel Zerega</h3>
         <div className="flex flex-row items-center">

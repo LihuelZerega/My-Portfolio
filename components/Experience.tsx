@@ -33,12 +33,13 @@ const Experience: React.FC = () => {
           className="bg-white p-6 rounded-lg shadow-lg"
         >
           <div className="flex items-center justify-between">
-            <h1 className="text-2xl font-semibold">Diseñador UI/UX</h1>
+            <h1 className="text-2xl font-semibold">Sales</h1>
             <h3 className="text-gray-600">2021 - 2023</h3>
           </div>
-          <h2 className="text-lg text-gray-600">Empresa B</h2>
+          <h2 className="text-lg text-gray-600">Luzuriaga Sillones</h2>
           <p className="text-gray-600 mt-2">
-            Diseñé interfaces de usuario y experiencias de usuario.
+            Attention to the public both virtually and in person, providing
+            advice and resolving inquiries.
           </p>
         </motion.div>
 
@@ -50,12 +51,13 @@ const Experience: React.FC = () => {
           className="bg-white p-6 rounded-lg shadow-lg"
         >
           <div className="flex items-center justify-between">
-            <h1 className="text-2xl font-semibold">Diseñador UI/UX</h1>
+            <h1 className="text-2xl font-semibold">Community Manager</h1>
             <h3 className="text-gray-600">2021 - 2023</h3>
           </div>
-          <h2 className="text-lg text-gray-600">Empresa C</h2>
+          <h2 className="text-lg text-gray-600">Luzuriaga Sillones</h2>
           <p className="text-gray-600 mt-2">
-            Lideré proyectos de desarrollo de software.
+            Management of the Instagram page, creating publications and stories
+            to promote the products.
           </p>
         </motion.div>
       </div>
