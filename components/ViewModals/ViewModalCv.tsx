@@ -42,7 +42,7 @@ export default function ViewModalSoyHenry() {
           </Tooltip>
         ))}
       </div>
-      <Modal size={size} isOpen={isOpen} onClose={onClose}>
+      <Modal size="4xl" isOpen={isOpen} onClose={onClose}>
         <ModalContent>
           {() => (
             <>
