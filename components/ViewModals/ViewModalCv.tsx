@@ -17,7 +17,7 @@ export default function ViewModalSoyHenry() {
   const { isOpen, onOpen, onClose } = useDisclosure();
   const [size, setSize] = useState<string>("md");
 
-  const sizes = ["4xl"];
+  // const sizes = ["4xl"];
 
   const handleOpen = (selectedSize: string) => {
     setSize(selectedSize);
@@ -27,22 +27,22 @@ export default function ViewModalSoyHenry() {
   return (
     <>
       <div className="flex flex-wrap gap-3">
-        {sizes.map((selectedSize) => (
+        {/* {sizes.map((selectedSize) => ( */}
           <Tooltip
             showArrow={true}
             content="Ver Curriculum Vitae"
-            key={selectedSize}
+            // key={selectedSize}
           >
             <Link href="https://drive.google.com/file/d/1doidy3f_zpXqVMZjqq4J2u5Hn3plnYo-/view?usp=sharing">
               <Button
-                onClick={() => handleOpen(selectedSize)}
+                // onClick={() => handleOpen(selectedSize)}
                 className="bg-transparent"
               >
                 <HiOutlineNewspaper className="text-xl" />
               </Button>
             </Link>
           </Tooltip>
-        ))}
+        {/* ))} */}
       </div>
       {/* <Modal isOpen={isOpen} onClose={onClose}>
         <ModalContent>
