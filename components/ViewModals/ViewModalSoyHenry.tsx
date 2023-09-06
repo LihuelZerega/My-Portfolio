@@ -33,26 +33,28 @@ export default function ViewModalSoyHenry() {
             content="View Certificate"
             key={selectedSize}
           >
-            <Button
-              onClick={() => handleOpen(selectedSize)}
-              className="bg-transparent"
-            >
-              <PiCertificateBold className="text-xl" />
-            </Button>
+            <Link href="https://certificates.soyhenry.com/new-cert?id=fd8b76cf5d69fe9cdf72c249372c9df591810e51cf707a1800cda6edce3ab0d5">
+              <Button
+                onClick={() => handleOpen(selectedSize)}
+                className="bg-transparent"
+              >
+                <PiCertificateBold className="text-xl" />
+              </Button>
+            </Link>
           </Tooltip>
         ))}
       </div>
-      <Modal size={size} isOpen={isOpen} onClose={onClose}>
+      {/* <Modal isOpen={isOpen} onClose={onClose}>
         <ModalContent>
           {() => (
             <>
               <ModalHeader className="text-2xl font-semibold">
                 Soy Henry | Full Stack Developer Certificate
               </ModalHeader>
-              <ModalBody className="flex flex-col sm:flex-row">
-                <div className="w-auto sm:w-1/2">
+              <ModalBody className="flex flex-col">
+                <div className="w-auto">
                   <p>
-                    The following certificate fully guarantees my studies in {" "}
+                    The following certificate fully guarantees my studies in{" "}
                     <b>Soy Henry</b> as a Full Stack Developer, in which I
                     learned the following development technologies Web:
                   </p>
@@ -66,10 +68,10 @@ export default function ViewModalSoyHenry() {
                     <li>SQL</li>
                   </ul>
                 </div>
-                <div className="hidden w-auto sm:flex flex-col items-center justify-center sm:w-1/2">
+                <div className="hidden w-auto sm:flex flex-col items-center justify-center">
                   <Image
                     src="https://res.cloudinary.com/dszjgdktf/image/upload/v1693843102/HenryCertificate_h9rwb8.png"
-                    width={300}
+                    width={200}
                     height={100}
                     alt="Certificado de Soy Henry"
                     className=""
@@ -84,7 +86,7 @@ export default function ViewModalSoyHenry() {
             </>
           )}
         </ModalContent>
-      </Modal>
+      </Modal> */}
     </>
   );
 }

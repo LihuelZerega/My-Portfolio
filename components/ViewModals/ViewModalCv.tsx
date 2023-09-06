@@ -33,16 +33,18 @@ export default function ViewModalSoyHenry() {
             content="Ver Curriculum Vitae"
             key={selectedSize}
           >
-            <Button
-              onClick={() => handleOpen(selectedSize)}
-              className="bg-transparent"
-            >
-              <HiOutlineNewspaper className="text-xl" />
-            </Button>
+            <Link href="https://drive.google.com/file/d/1doidy3f_zpXqVMZjqq4J2u5Hn3plnYo-/view?usp=sharing">
+              <Button
+                onClick={() => handleOpen(selectedSize)}
+                className="bg-transparent"
+              >
+                <HiOutlineNewspaper className="text-xl" />
+              </Button>
+            </Link>
           </Tooltip>
         ))}
       </div>
-      <Modal size="4xl" isOpen={isOpen} onClose={onClose}>
+      {/* <Modal isOpen={isOpen} onClose={onClose}>
         <ModalContent>
           {() => (
             <>
@@ -78,15 +80,13 @@ export default function ViewModalSoyHenry() {
               </ModalBody>
               <ModalFooter>
                 <Link href="https://drive.google.com/file/d/13lLlclR-P9dd6icdljGj9ddkA3UFVFpL/view?usp=sharing">
-                  <Button className="">
-                    View Curriculum Vitae
-                  </Button>
+                  <Button className="">View Curriculum Vitae</Button>
                 </Link>
               </ModalFooter>
             </>
           )}
         </ModalContent>
-      </Modal>
+      </Modal> */}
     </>
   );
 }
