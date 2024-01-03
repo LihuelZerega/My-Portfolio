@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 const Experience: React.FC = () => {
   return (
-    <div className="py-6 px-12">
+    <div className="py-6 px-12 dark:bg-[#121212] mx-6 rounded-md">
       <h1 className="text-4xl font-bold text-center mb-8">Experience</h1>
 
       <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3">
@@ -16,7 +16,7 @@ const Experience: React.FC = () => {
           className="bg-white p-6 rounded-lg shadow-lg"
         >
           <div className="flex items-center justify-between">
-            <h1 className="text-2xl font-semibold">Edition and Design</h1>
+            <h1 className="text-2xl font-semibold dark:text-[#121212]">Edition and Design</h1>
             <h3 className="text-gray-600">2021 - 2023</h3>
           </div>
           <h2 className="text-lg text-gray-600">Freelance</h2>
@@ -33,7 +33,7 @@ const Experience: React.FC = () => {
           className="bg-white p-6 rounded-lg shadow-lg"
         >
           <div className="flex items-center justify-between">
-            <h1 className="text-2xl font-semibold">Sales</h1>
+            <h1 className="text-2xl font-semibold dark:text-[#121212]">Sales</h1>
             <h3 className="text-gray-600">2021 - 2023</h3>
           </div>
           <h2 className="text-lg text-gray-600">Luzuriaga Sillones</h2>
@@ -51,7 +51,7 @@ const Experience: React.FC = () => {
           className="bg-white p-6 rounded-lg shadow-lg"
         >
           <div className="flex items-center justify-between">
-            <h1 className="text-2xl font-semibold">Community Manager</h1>
+            <h1 className="text-2xl font-semibold dark:text-[#121212]">Community Manager</h1>
             <h3 className="text-gray-600">2021 - 2023</h3>
           </div>
           <h2 className="text-lg text-gray-600">Luzuriaga Sillones</h2>

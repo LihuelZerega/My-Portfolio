@@ -24,7 +24,7 @@ const WelcomeSection = () => {
   }, []);
 
   return (
-    <div className="flex shadow-xl px-2 py-12 sm:p-4 md:p-6 lg:p-12 xl:py-28 xl:px-24 2xl:py-44 2xl:px-36">
+    <div className="flex shadow-xl px-2 py-12 sm:p-4 md:p-6 lg:p-12 xl:py-28 xl:px-24 2xl:py-44 2xl:px-36 dark:bg-[#121212]">
       <section className="w-full justify-center items-center text-center sm:w-1/2 sm:flex flex-col">
         <motion.h1
           initial={{ opacity: 0 }}

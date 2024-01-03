@@ -17,7 +17,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
 
   return (
     <div
-      className={`relative overflow-hidden rounded-lg shadow-lg transition-transform transform hover:scale-105`}
+      className={`relative overflow-hidden rounded-lg shadow-lg transition-transform transform hover:scale-105 dark:bg-[#202020]`}
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
     >

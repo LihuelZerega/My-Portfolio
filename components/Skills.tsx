@@ -31,7 +31,7 @@ const skills = [
 
 const Skills = () => {
   return (
-    <div className="flex flex-col items-center justify-center">
+    <div className="flex flex-col items-center justify-center dark:bg-[#121212] py-12 rounded-md mx-6">
       <h1 className="text-4xl font-bold">My Skills</h1>
       <section className="grid grid-cols-2 sm:grid-cols-4 mt-8 gap-4">
         {skills.map((skill, index) => (
@@ -40,7 +40,7 @@ const Skills = () => {
             animate={{ opacity: 1, y: 0 }}
             whileHover={{ scale: 1.05 }}
             key={index}
-            className="flex flex-col box-border h-36 w-36 justify-center items-center bg-white-500/[.03] shadow-xl backdrop-blur-md rounded-xl border-white"
+            className="flex flex-col box-border h-36 w-36 justify-center items-center bg-white-500/[.03] shadow-xl backdrop-blur-md rounded-xl border-white dark:bg-[#202020]"
           >
             <motion.div>
               <skill.icon className="text-7xl" />

@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 const AboutSection = () => {
   return (
-    <div className="flex flex-col text-center p-6">
+    <div className="flex flex-col text-center px-6 py-12">
       <motion.h1
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
